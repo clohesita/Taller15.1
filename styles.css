@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Estilos generales para el cuerpo */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.custom-navbar {
+    background-color: #2c3e50;
+    padding: 1rem;
+}
+
+/* Color del texto de la barra de navegación */
+.navbar-brand,
+.nav-link {
+    color: #ecf0f1 !important;
+}
+
+/* Hover de los enlaces de la barra de navegación */
+.nav-link:hover {
+    color: #3498db !important;
+}
+
+/* Estilo del título principal */
+.container-titles h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+.carousel-item {
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(173, 177, 173);
+    text-align: center;
+}
+
+/* Sección principal - Columnas */
+.main .row {
+    margin-bottom: 20px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+/* Ajuste en columnas para dispositivos móviles */
+@media (max-width: 768px) {
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos de las opciones del lado izquierdo */
+.custom-section {
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.custom-section .list-group-item {
+    background-color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.custom-section .list-group-item:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Contenedor del carrusel */
+.carousel-inner {
+    border-radius: 15px;
+}
+
+/* Botones dropdown */
+.dropdown-menu {
+    background-color: #2c3e50;
+}
+
+.dropdown-item {
+    color: #ecf0f1;
+}
+
+.dropdown-item:hover {
+    background-color: #3498db;
+}
